@@ -1,0 +1,161 @@
+﻿body {
+    margin: 0px;
+}
+
+#form1{
+    width: 652px;
+
+    display: flex;
+}
+
+#HomepageButton {
+    position: fixed;
+    left: 8.36% !important;
+    right: 74.92%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#RoomIntroduce {
+    position: fixed;
+    left: 48.83%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.navbarButton:hover {
+    background-color: #315D92 !important;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar {
+    top: 0%;
+    width: 100%;
+    z-index: 99;
+}
+
+#Facility {
+    position: fixed;
+    left: 57.42%;
+    right: 33.98%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#Booking {
+    position: fixed;
+    left: 66.02%;
+    right: 25.39%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#Feedback {
+    position: fixed;
+    left: 74.61%;
+    right: 16.8%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#English {
+    position: fixed;
+    left: 83.2%;
+    right: 8.2%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.container {
+    padding-top: 54px;
+    padding-bottom: 180px;
+    margin-top: 0px;
+}
+
+.title {
+    display: flex;
+    align-items: center !important;
+    white-space: nowrap;
+    width:361px;
+    height: 56px;
+    font-size: 36px;
+}
+
+.description {
+    width: 650px;
+    height: 95px;
+    white-space: nowrap;
+    color: #8F8888;
+    font-size: 16px;
+}
+
+.indication{
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.baseline{
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    width:400px;
+}
+
+.standards {
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#name, #phone, #mail, #roomnumber, #indate, #outdate{
+    height: 20px;
+}
+
+.inquiries{
+    white-space:nowrap;
+    font-size:20px;
+    font-weight:normal;
+}
+
+#submit{
+    position: relative;
+    top:1100px;
+    right:600%;
+}
+
+#submit:hover {
+    background-color: #315D92 !important;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer {
+    background-color: #315D92;
+    width: 193.8%;
+    height: 180px;
+    position: absolute;
+    bottom: -1200px;
+    left: 0;
+    right:0;
+    text-align: center;
+}
+
+#footerHotelName {
+    margin: auto;
+    position: relative;
+    bottom: -100px;
+}
+
+.contact {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+

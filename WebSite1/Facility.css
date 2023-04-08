@@ -1,0 +1,101 @@
+﻿body {
+    margin:0px;
+}
+body *{
+    white-space: normal;
+}
+
+#HomepageButton {
+    position: fixed;
+    left: 8.36% ;
+    right: 74.92%;
+    top: 0%;
+    bottom: 0%;
+}
+#RoomIntroduce {
+    position: fixed;
+    left: 48.83%;
+    right: 42.58%;
+    top: 0%;
+    bottom: 0%;
+}
+.navbarButton:hover {
+    background-color: #315D92 !important;
+    color: white;
+    cursor:pointer;
+    transition:all 0.5s ease-in-out;
+    z-index:99;
+}
+.navbar{
+    top:0%;
+    width:100%;
+    z-index:99;
+}
+#Facility {
+    position: fixed;
+    left: 57.42%;
+    right: 33.98%;
+    top: 0%;
+    bottom: 0%;
+}
+#Booking {
+    position: fixed;
+    left: 66.02%;
+    right: 25.39%;
+    top: 0%;
+    bottom: 0%;
+}
+#Feedback {
+    position: fixed;
+    left: 74.61%;
+    right: 16.8%;
+    top: 0%;
+    bottom: 0%;
+}
+#English {
+    position: fixed;
+    left: 83.2%;
+    right: 8.2%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.container {
+    padding-top: 54px;
+    padding-bottom: 180px;
+    margin-top:0px;
+    text-align:center;
+}
+
+#Image1{
+    margin:auto;
+    margin-top:50px;
+}
+#Image2{
+    margin: auto;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.footer {
+    background-color: #315D92;
+    width:100%;
+    height:180px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    text-align:center;
+}
+#footerHotelName {
+    margin:auto;
+    position: relative;
+    bottom:-100px;
+}
+.contact {
+    width: 1000px;
+    margin: auto;
+    position:relative;
+    top:60px;
+    display: flex;
+    justify-content: space-between;
+}

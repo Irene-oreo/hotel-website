@@ -1,0 +1,344 @@
+﻿body {
+    margin: 0px;
+}
+
+body * {
+    white-space: normal;
+}
+
+#HomepageButton {
+    position: fixed;
+    left: 8.36%;
+    right: 74.92%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#RoomIntroduce {
+    position: fixed;
+    left: 48.83%;
+    right: 42.58%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.navbarButton:hover {
+    background-color: #315D92 !important;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    z-index: 99;
+}
+
+.navbar {
+    top: 0%;
+    width: 100%;
+    z-index: 99;
+}
+
+#Facility {
+    position: fixed;
+    left: 57.42%;
+    right: 33.98%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#Booking {
+    position: fixed;
+    left: 66.02%;
+    right: 25.39%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#Feedback {
+    position: fixed;
+    left: 74.61%;
+    right: 16.8%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#English {
+    position: fixed;
+    left: 83.2%;
+    right: 8.2%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.container {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 98vw;
+    top: 64px;
+    left: 0px;
+    padding-top: 54px;
+    padding-bottom: 180px;
+    margin-top: 0px;
+}
+
+.content{
+    width: 173px;
+}
+
+
+
+.footer {
+    background-color: #315D92;
+    width: 100.7%;
+    height: 180px;
+    position: absolute;
+    bottom: -145px;
+    left: 0;
+    text-align: center;
+}
+
+#footerHotelName {
+    margin: auto;
+    position: relative;
+    bottom: -100px;
+}
+
+.contact {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Calendar1 {
+    position: relative;
+    left: 0%;
+    right: 28.98%;
+    top: 0%;
+    bottom: 58.15%;
+}
+
+#Label1 {
+    position: relative;
+    left: -70%;
+    right: 53.12%;
+    top: 10px;
+    bottom: 53.69%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label2 {
+    position: relative;
+    left: 50%;
+    right: 28.98%;
+    top: -14px;
+    bottom: 53.69%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label3 {
+    position: relative;
+    left: -70%;
+    right: 53.12%;
+    top: 50%;
+    bottom: 49.23%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label4 {
+    position: relative;
+    left: -70%;
+    right: 53.12%;
+    top: 0%;
+    bottom: 44.78%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border: none;
+}
+
+#Label5 {
+    position: relative;
+    left: -70%;
+    right: 53.12%;
+    top: 0;
+    bottom: 40.32%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label6 {
+    position: relative;
+    left: -70%;
+    right: 53.12%;
+    top: 0;
+    bottom: 35.86%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label7 {
+    position: relative;
+    left: 110%;
+    right: 44.22%;
+    top: -204px;
+    bottom: 53.69%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label8 {
+    position: relative;
+    left: -13%;
+    right: 20%;
+    top: -244.5px;
+    bottom: 53.69%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label9 {
+    position: relative;
+    left: -38%;
+    right: 46.88%;
+    top: -25.5px;
+    bottom: 40.32%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label10 {
+    position: absolute;
+    left: 36%;
+    top: 626px;
+    bottom: 40.32%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#DropDownList1 {
+    position: relative;
+    left: -30%;
+    right: 46.88%;
+    top: -23px;
+    background: #D9D9D9;
+}
+
+#TextBox1 {
+    position: relative;
+    left: -15%;
+    right: 0%;
+    top: -24px;
+    height: 20px;
+    background: #D9D9D9;
+    border: none;
+}
+
+#TextBox2 {
+    position: relative;
+    top: -50px;
+    right: 68.5%;
+    background-color: #D9D9D9;
+    border: none;
+    height:20px;
+}
+
+#TextBox3 {
+    position: absolute;
+    top: 535px;
+    right: 53.1%;
+    background-color: #D9D9D9;
+    border: none;
+    height: 20px;
+}
+
+#TextBox4 {
+    position: absolute;
+    top: 568px;
+    right: 53.1%;
+    background-color: #D9D9D9;
+    border: none;
+    height: 20px;
+}
+
+#Button1 {
+    position: relative;
+    left: 24%;
+    right: 0%;
+    top: 50px;
+    bottom: 26.26%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}

@@ -1,0 +1,465 @@
+﻿body {
+    margin: 0px;
+}
+
+    body * {
+        white-space: normal;
+    }
+
+#homepageButton {
+    position: fixed;
+    left: 8.36%;
+    right: 74.92%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#roomIntroduce {
+    position: fixed;
+    left: 48.83%;
+    right: 42.58%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.navbarButton:hover {
+    background-color: #315D92 !important;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    z-index: 99;
+}
+
+.navbar {
+    top: 0%;
+    width: 100%;
+    z-index: 99;
+}
+
+#facility {
+    position: fixed;
+    left: 57.42%;
+    right: 33.98%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#booking {
+    position: fixed;
+    left: 66.02%;
+    right: 25.39%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#feedback {
+    position: fixed;
+    left: 74.61%;
+    right: 16.8%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#english {
+    position: fixed;
+    left: 83.2%;
+    right: 8.2%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 98vw;
+    top: 64px;
+    left: 0px;
+    text-align:center;
+}
+
+.content {
+    width: 173px;
+}
+
+#hotelName {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: black;
+    text-align: center;
+    line-height: 300px;
+    margin: auto;
+}
+
+#descripition {
+    line-height: 200px;
+    text-align: center;
+    position: relative;
+    left: 15.35%;
+    right: 15.35%;
+    top: 30%;
+    bottom: 63.15%;
+    color: black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#homepageImage {
+    margin: auto;
+    display: block;
+}
+
+.imageButton {
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Button1 {
+    z-index: 10;
+    background-image: url(../image/b2674306307efeb0b97f07fa9d37bdf9.jpg);
+    background-size: 300px;
+}
+
+    #Button1:hover {
+        cursor: pointer;
+    }
+
+#Button2 {
+    z-index: 10;
+    background-image: url(../image/b2674306307efeb0b97f07fa9d37bdf9.jpg);
+    background-size: 300px;
+}
+
+    #Button2:hover {
+        cursor: pointer;
+    }
+
+#Button3 {
+    z-index: 10;
+    background-image: url(../image/b2674306307efeb0b97f07fa9d37bdf9.jpg);
+    background-size: 300px;
+}
+
+    #Button3:hover {
+        cursor: pointer;
+    }
+
+.footer {
+    background-color: #315D92;
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+#footerHotelName {
+    margin: auto;
+    position: relative;
+    bottom: -100px;
+}
+
+.contact {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Calendar1 {
+    position: relative;
+    left: 0%;
+    right: 28.98%;
+    top: 0%;
+    bottom: 58.15%;
+}
+
+#Label1 {
+    position: relative;
+    left : -8%;
+    top: 55px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label2 {
+    position: relative;
+    left: 10%;
+    right: 28.98%;
+    top: 30px;
+    bottom: 53.69%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label3 {
+    position: relative;
+    left: -8%;
+    right: 53.12%;
+    top: 10px;
+    bottom: 49.23%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label4 {
+    position: relative;
+    left: 10%;
+    right: 53.12%;
+    top: -15px;
+    bottom: 44.78%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border: none;
+}
+
+#Label5 {
+    position: relative;
+    left: -8%;
+    right: 53.12%;
+    top: 10px;
+    bottom: 40.32%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label6 {
+    position: relative;
+    left: 10%;
+    right: 53.12%;
+    top: -15px;
+    bottom: 35.86%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label7 {
+    position: relative;
+    left: -8%;
+    right: 44.22%;
+    top: 10px;
+    bottom: 53.69%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label8 {
+    position: relative;
+    left: 10%;
+    right: 53.12%;
+    top: -35px;
+    bottom: 35.86%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label9 {
+    position: relative;
+    left: -8%;
+    right: 46.88%;
+    top: 10px;
+    bottom: 40.32%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label10 {
+    position: relative;
+    left: 10%;
+    right: 53.12%;
+    top: -15px;
+    bottom: 35.86%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label11 {
+    position: relative;
+    left: -8%;
+    right: 46.88%;
+    top: 10px;
+    bottom: 40.32%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label12 {
+    position: relative;
+    left: 10%;
+    right: 53.12%;
+    top: -15px;
+    bottom: 35.86%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label13 {
+    position: relative;
+    left: -8%;
+    right: 46.88%;
+    top: 10px;
+    bottom: 40.32%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Label14 {
+    position: relative;
+    left: 10%;
+    right: 53.12%;
+    top: -15px;
+    bottom: 35.86%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#TextBox1 {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: -24px;
+    height: 20px;
+    background: #D9D9D9;
+    border: none;
+}
+
+#TextBox2 {
+    position: relative;
+    top: -50px;
+    right: 68.5%;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+#TextBox3 {
+    position: absolute;
+    top: 500px;
+    right: 52.2%;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+#TextBox4 {
+    position: absolute;
+    top: 530px;
+    right: 52.2%;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+#Button1 {
+    position: relative;
+    left: 24%;
+    right: 0%;
+    top: 50px;
+    bottom: 26.26%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.baseline {
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: normal;
+    width: 400px;
+    height: 24px;
+}
